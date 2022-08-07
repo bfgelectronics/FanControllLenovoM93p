@@ -1,9 +1,9 @@
-#Fan speed controller for the lenovo M93p tiny PC
+# Fan speed controller for the lenovo M93p tiny PC
 
-#Why?
+# Why?
 I use a lenovo m93p tiny as my homeserver and i want to make it as silent as possible without hurting the long time reliability of the machine, so i upgraded the stock cooling system to an Noctua NH-L9i chromax and now i am doing this piece of software to customise the behaviour of the cooling fan.
 
-#Thinks you need to do before
+# Thinks you need to do before
 Follow the instructions from this comment.
 https://www.reddit.com/r/homelab/comments/if9dkq/comment/g4t9wq3/?utm_source=share&utm_medium=web2x&context=3
 
