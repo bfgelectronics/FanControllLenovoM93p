@@ -5,7 +5,7 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
 var fs = require("fs");
-var usersRouter = require("./routes/users");
+var fanAPI = require("./routes/fanAPI");
 
 var app = express();
 
@@ -23,7 +23,9 @@ router.get("/", () => {
   fs.readFileSync("./public/index.html");
 });
 app.use(express.static("public"));
-app.use("/users", usersRouter);
+app.use("/api/", fanAPI);
+
+/* There should also be a socket to transmit the current temperature and fan speed */
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
