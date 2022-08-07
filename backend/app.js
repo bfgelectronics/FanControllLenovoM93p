@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-router.get("/", () => {
+app.get("/", () => {
   fs.readFileSync("./public/index.html");
 });
 app.use(express.static("public"));
