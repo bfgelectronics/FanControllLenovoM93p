@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+}
+
+.control-graph__container {
+  margin: auto;
+  display: flex;
+}
